@@ -5,15 +5,15 @@ const Pricing = () => {
 
     const plans = [
         {
-            name: "Hobby",
-            desc: "For small teams between 4-7 people focused on collaboration.",
-            price: 0,
+            name: "Monthly",
+            desc: "100 minutes every month + 2 content",
+            price: 9.9,
             isMostPop: false,
         },
         {
-            name: "Startup",
-            desc: "For large teams with more security, support, and performance needs, and much more.",
-            price: 32,
+            name: "Yearly",
+            desc: "100 minutes every month + 2 month free",
+            price: 99,
             isMostPop: true,
         },
     ];
@@ -22,12 +22,14 @@ const Pricing = () => {
         <GradientWrapper id="get-started" className="sm:my-16">
             <div className="custom-screen text-gray-600">
                 <div className='relative max-w-2xl mx-auto sm:text-center'>
-                    <h2 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                        Buy once, use forever.
+                    {/* <h2 className='text-gray-800 text-3xl font-semibold sm:text-4xl'> */}
+                    <h2 className='items-center justify-center text-center text-4xl font-extrabold text-gray-800 lg:flex lg:space-x-4'>
+                        Pricing for all your videos
                     </h2>
-                    <div className='mt-3 max-w-xl'>
+                    {/* <div className='mt-3 max-w-xl'> */}
+                    <div className='mt-2 text-center text-lg text-gray-600'>
                         <p>
-                            Starboard is a quality product that will last a lifetime, so you never have to buy again.
+                             Start generating content today
                         </p>
                     </div>
                 </div>
@@ -40,7 +42,7 @@ const Pricing = () => {
                                         {item.name}
                                     </span>
                                     <div className={`text-3xl font-semibold ${item.isMostPop ? "text-white" : "text-gray-800"}`}>
-                                        ${item.price} <span className="text-xl font-normal">/mo</span>
+                                        ${item.price} {item.isMostPop ? <span className="text-xl font-normal">/year</span> : <span className="text-xl font-normal">/month</span>}
                                     </div>
                                     <p className="max-w-sm">
                                         {item.desc}

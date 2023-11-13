@@ -13,39 +13,39 @@ const Testimonial = () => {
     const testimonials = [
         {
             avatar: user1,
-            name: "Jonathen tapas",
-            title: "Founder of saleMore",
-            quote: "Great value and so easy to use and saves me so much time! I was shocked by how much time and brain energy it saved me. Simple & easy...gotta love that."
+            name: "Sophia Martinez",
+            title: "Chief Executive Officer (CEO)",
+            quote: "This product has revolutionized how I handle social media content. Turning my videos into well-crafted blog posts is now a breeze. The AI not only transcribes but also enhances the style, making every post a hit."
         },
         {
             avatar: user2,
-            name: "Rahole titane",
-            title: "Team leader",
-            quote: "I've been using Starboard for a couple of months now and it has really helped me with my project management skills.It's perfect for anyone who prefers the simpler route in life."
+            name: "Alexander Reed",
+            title: "Chief Technology Officer (CTO)",
+            quote: "As a frequent Twitter user, I'm amazed at how this tool transforms my videos into engaging tweets. It retains my voice while polishing the content, saving me hours of work. Absolutely recommend!"
         },
         {
             avatar: user3,
-            name: "Joric toral",
-            title: "IT manager",
-            quote: "We're using Starboard to manage our entire project, and it's been truly incredible! From the way it's easy to create new tasks and organize your team."
+            name: "Ethan Parker",
+            title: "Chief Operating Officer (COO)",
+            quote: "I'm impressed with the accuracy and speed of this product. It's a lifesaver for content creators who need to quickly turn video material into compelling social media posts."
         },
         {
             avatar: user4,
-            name: "Alexandru",
-            title: "Project manager",
-            quote: "I am a project manager and I have used a number of different project management software. Spent over $100,000 on tools that frankly did not work for me."
+            name: "Olivia Zhang",
+            title: "Chief Financial Officer (CFO)",
+            quote: "This tool has changed the game for me. Converting video to blog format is not only efficient but also maintains the essence of my original message. Perfect for content creators on the go."
         },
         {
             avatar: user5,
-            name: "Lyna igore",
-            title: "CTO of bankLine",
-            quote: "I have had the opportunity to work with Starboard on a number of projects and it's been one of the best experiences I have had, so I highly recommend this software."
+            name: "Emily Chen",
+            title: "Marketing Director",
+            quote: "The ease with which this tool turns videos into polished, ready-to-post social media content is astounding. It's an essential tool for anyone looking to make an impact online."
         },
         {
             avatar: user6,
-            name: "Tony justin",
-            title: "IT manager",
-            quote: "I started as a project manager and now help plan out all our marketing campaigns. The thing that really keeps me coming back is their support."
+            name: "Ryan Kim",
+            title: "Product Manager",
+            quote: "This product seamlessly integrates video content into my social media strategy. The AI-enhanced text conversion is a major time-saver and consistently delivers high-quality posts."
         },
     ]
 

@@ -16,7 +16,7 @@ const SubscribeForm = () => {
                 />
             </div>
             <Button className="block w-full mt-3 text-white bg-sky-500 hover:bg-sky-600 ring-offset-2 ring-sky-500 focus:ring shadow sm:w-auto sm:mt-0">
-                Try for free
+                Try it now
             </Button>
         </form>
     )

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import SubscribeForm from "../SubscribeForm"
-import previewImage from '../../../public/desktop-app-prview.png'
+import previewImage from '../../../public/youtube.jpg'
 import LayoutEffect from "../../LayoutEffect"
 
 const Hero = () => {
@@ -14,10 +14,10 @@ const Hero = () => {
                 <div className="custom-screen items-center gap-12 text-gray-600 md:flex">
                     <div className='flex-none space-y-5 max-w-2xl'>
                         <h1 className="text-4xl text-gray-800 font-extrabold sm:text-5xl">
-                            A Powerful Project Management Desktop App
+                            Turn Videos Into Content
                         </h1>
                         <p>
-                            With complete software that enables your teams to interact, plan, evaluate, and manage daily activities, you can break down large projects, quickly, and easily.
+                            From Video to Viral: AI-Powered Content Creation for Enhanced SEO and Storytelling.
                         </p>
                         <SubscribeForm />
                     </div>

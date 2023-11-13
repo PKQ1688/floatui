@@ -4,28 +4,28 @@ const Features = () => {
 
     const features = [
         {
-            title: "Task Management",
-            desc: "stay organized and meet deadlines 5x faster with task management."
+            title: "Video Content Analysis",
+            desc: "Utilizes AI technology to analyze spoken and visual content in videos and convert them into text form."
         },
         {
-            title: "Team Collaboration",
-            desc: "Collaborate with your team to ensure project accountability and transparency."
+            title: "Automated Content Refinement",
+            desc: " AI automatically refines the text to match a chosen style (e.g., formal, humorous, or professional) based on the video content."
         },
         {
-            title: "Tracking",
-            desc: "Link time spent tracking to tasks from your desktop."
+            title: "Social Media Format Optimization",
+            desc: "Adjusts the text format and length to suit different social media platforms (like Twitter, Facebook) for optimal posting."
         },
         {
-            title: "Reporting",
-            desc: "Access detailed reporting for time tracked and automatically create reports"
+            title: "Key Information Extraction",
+            desc: "Extracts key points and highlights from videos, ensuring the converted text remains engaging and information-rich."
         },
         {
-            title: "Meeting management",
-            desc: "You can set meeting agenda, record discussion points, and more."
+            title: "Multilingual Support",
+            desc: "Offers video-to-text services in multiple languages, aiding international companies and multilingual users in content creation."
         },
         {
-            title: "Timesheets",
-            desc: "Manage and track your remote team’s time."
+            title: "SEO Optimization",
+            desc: "Optimizes the generated text content based on the latest Search Engine Optimization (SEO) standards to improve visibility and ranking in search engines."
         },
     ]
 
@@ -34,11 +34,9 @@ const Features = () => {
             <div className="custom-screen text-gray-600">
                 <div className="max-w-2xl space-y-3">
                     <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        Never miss a beat with Easy Projects
+                        Ours Features
                     </h2>
-                    <p>
-                        Feeling overwhelmed with the lack of time and resources? With Starboard, you'll never have to worry about your team's productivity again!
-                    </p>
+                    <p></p>
                 </div>
                 <div className="mt-12">
                     <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">

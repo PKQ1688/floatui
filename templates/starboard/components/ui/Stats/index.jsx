@@ -3,11 +3,11 @@ import SectionWrapper from "../../SectionWrapper";
 const Stats = () => {
   const stats = [
     {
-      data: "90K",
+      data: "90K+",
       title: "Active users",
     },
     {
-      data: "120K",
+      data: "120K+",
       title: "Total Sales",
     },
     {
