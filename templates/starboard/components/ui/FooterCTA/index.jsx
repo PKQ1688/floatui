@@ -17,7 +17,7 @@ const FooterCTA = () => {
                     <NavLink href="#get-started" className="inline-block w-full font-medium text-sm text-white bg-sky-500 hover:bg-sky-600 active:bg-sky-700 shadow rounded-lg sm:w-auto">
                         Get started
                     </NavLink>
-                    <NavLink href="mailto:example@domain.com" className="inline-block w-full font-medium text-sm text-gray-800 hover:bg-gray-50 active:bg-gray-100 rounded-lg border sm:w-auto">
+                    <NavLink href="adolf1321794021@gmail.com" className="inline-block w-full font-medium text-sm text-gray-800 hover:bg-gray-50 active:bg-gray-100 rounded-lg border sm:w-auto">
                         Contact us
                     </NavLink>
                 </div>
