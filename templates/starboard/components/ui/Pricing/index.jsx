@@ -1,5 +1,6 @@
 import GradientWrapper from "../../GradientWrapper"
 import Button from "../Button";
+import Link from 'next/link'
 
 const Pricing = () => {
 
@@ -48,9 +49,10 @@ const Pricing = () => {
                                         {item.desc}
                                     </p>
                                     <div className="flex-1 flex items-end">
+                                    <Link href="/dashboard">
                                         <Button className="block w-full text-white bg-sky-500 hover:bg-sky-600 ring-offset-2 ring-sky-500 focus:ring shadow">
                                             Get Started
-                                        </Button>
+                                        </Button></Link>
                                     </div>
                                 </div>
                             </div>
